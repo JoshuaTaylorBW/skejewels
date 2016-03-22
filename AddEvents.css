@@ -1,0 +1,186 @@
+#AddEvent
+{
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  left: 25%;
+  top: 15%;
+  height: 247px;
+  width: 677px;
+   z-index: 62;
+   border-radius: 15px;
+}
+#EventNameInput
+{
+  position: absolute;
+  left: 19.5%;
+  top: 5%;
+  width: 411px;
+  height: 22px;
+  text-align: center;
+}
+#StartingDates
+{
+  position: absolute;
+  top: 19%;
+  right: 80.85%;
+  width: 90px;
+  height: 20px;
+}
+#StartingMonth
+{
+  position: absolute;
+  top: 19%;
+  right: 66.5%;
+  width: 94px;
+  height: 20px;
+}
+#StartingDay
+{
+  position: absolute;
+  top: 19%;
+  right: 59.5%;
+  width: 41px;
+  height: 20px;
+}
+#EndingDates
+{
+  position: absolute;
+  top: 19%;
+  left: 53%;
+  width: 90px;
+  height: 20px;
+}
+#EndingMonth
+{
+  position: absolute;
+  top: 19%;
+  left: 66.2%;
+  width: 100px;
+  height: 20px;
+}
+#EndingDay
+{
+  position: absolute;
+  top: 19%;
+  left: 81.8%;
+  width: 41px;
+  height: 20px;
+}
+#StartingTimes{
+  position: absolute;
+  top: 29.5%;
+  right: 80.5%;
+  width: 93px;
+  height: 20px;
+
+}
+#StartingHour{
+  position: absolute;
+  top:29.5%;
+  right:74%;
+  width: 41px;
+  height: 20px;
+}
+#StartingMinute
+{
+
+  position: absolute;
+  top: 29.5%;
+  right: 67.15%;
+  width: 41px;
+  height: 20px;
+}
+#StartingAMPM
+{
+
+  position: absolute;
+  top: 29.5%;
+  right: 59.6%;
+  width: 47px;
+  height: 20px;
+}
+#EndingTimes
+{
+
+  position: absolute;
+  top: 29.5%;
+  left: 52.95%;
+  width: 90px;
+  height: 20px;
+}
+#Ending_Hour
+{
+  position: absolute;
+  top: 29.5%;
+  left: 66.1%;
+  width: 41px;
+  height: 20px;
+}
+#Ending_Minute
+{
+  position: absolute;
+  top: 29.5%;
+  left: 73.05%;
+  width: 41px;
+  height: 20px;
+}
+#EndingAMPM
+{
+  position: absolute;
+  top: 29.5%;
+  left: 79.6%;
+  width: 56px;
+  height: 20px;
+}
+#RepeatText
+{
+position: absolute;
+top: 40%;
+left: 47%;
+}
+#RepeatType
+{
+  position: absolute;
+  top: 49%;
+  left: 45.5%;
+}
+#EndRepeatMonth
+{
+  position: absolute;
+  top: 62%;
+  left: 41%;
+}
+#EndRepeatDay
+{
+  position: absolute;
+  top: 62%;
+  left: 56%;
+}
+#AddEventButton
+{
+  position: absolute;
+  top: 75%;
+  left: 280px;
+}
+#Visibility
+{
+  position: absolute;
+  top: 89%;
+  left: 89.3%;
+}
+#RegVisibility
+{
+  position: absolute;
+  top: 89%;
+  left: 89.3%;
+}
+#Exit
+{
+  position: absolute;
+  top: 4px;
+  left: 95.3%;
+  border-style: none;
+  color: gray;
+  background-color: white;
+}

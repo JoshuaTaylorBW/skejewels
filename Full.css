@@ -1,0 +1,1294 @@
+body{
+	background-color: #E9EAED;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/*Banner*/
+	#jewel{
+		position: relative;
+		top: 2px;
+		left: 48.5%;
+	}
+
+	#RightArrow
+	{
+		position: relative;
+		top: -40px;
+		left: 56.5%;
+		 z-index: 50;
+	}
+	#LeftArrow
+	{
+		position: relative;
+		top: -40px;
+		left: 40%;
+		 z-index: 50;
+	}
+	#FriendsRightArrow
+	{
+		position: relative;
+		top: -50px;
+		left: 69.5%;
+		 z-index: 50;
+	}
+	#FriendsLeftArrow
+	{
+		position: relative;
+		top: -50px;
+		left: 28%;
+		 z-index: 50;
+	}
+	#searchName{
+		text-decoration: none;
+		color: #3F5296;
+		font-weight: bold;
+		height: 140%;
+	}
+	#searchName:hover{
+		text-decoration: underline;
+		color: #3F5296;
+		font-weight: bold;
+	}
+	#Search
+	{
+		background: url(linktomagnifier.png) no-repeat scroll right center white !important;
+
+		padding-right: 17px !important;
+		text-decoration:none;
+		height: 65%;
+		border-style: solid;
+		border-width: 100%;
+		border-color: white;
+		border-radius: 30px;
+		position: relative;
+		top: -15px;
+		width: 15%;
+		left: 62.2%;
+	}
+
+	#LiveSearch
+	{
+		position: absolute;
+		background-color: white;
+		text-decoration:none;
+		width: 15%;
+		left: 66.8%;
+		color: gray;
+		top: 86%;
+	}
+
+	#AddButton
+	{
+		position: relative;
+		top: -15px;
+		left: 63%;
+		width: 14%;
+		height: 35px;
+	  	border: 5px solid white;
+	  	border-radius: 8px;
+	  	background-color: white;
+	  	text-decoration: none;
+
+	}
+	#notificationsAmountContainer{
+		position: absolute;
+		left: 80px;
+		top: -3px;
+
+	}
+	#notificationAmountText{
+		color: white;
+		font-size: 90%;
+		background-color: red;
+		white-space: nowrap;
+		overflow: hidden;
+		text-align: center;
+		height: 15px;
+		line-height:15px;
+		border-radius: 2px;
+		width: auto;
+		padding-left: 2px;
+		padding-right: 2px;
+
+	}
+	#requestsAmountContainer{
+		position: absolute;
+		left: 253px;
+		top: -3px;
+	}
+	#requestsAmountText{
+		color: white;
+		font-size: 90%;
+		background-color: red;
+		white-space: nowrap;
+		overflow: hidden;
+		text-align: center;
+		height: 15px;
+		line-height:15px;
+		border-radius: 2px;
+		width: auto;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+
+/**/
+
+
+/*BAnner*/
+	#BarBanner
+	{
+		left: 0;
+		top: 0;
+		width: 99.5%;
+		height: 52px;
+		position: fixed;
+		border-style: solid;
+		border-width: 100%;
+		border-color:#009688;
+		border-bottom: 1px solid  white;
+		 z-index: 60;
+
+
+		background-color: #009688;
+	}
+
+	#Banner
+	{
+		left: 0;
+		top: 0;
+		width: 99.5%;
+		height: 50px;
+		position: absolute;
+		border-style: solid;
+		border-width: 100%;
+		border-color: #009688 ;
+		background-color: #009688 ;
+	}
+
+	#Logos
+	{
+		position: absolute;
+	}
+	#Logos li
+	{
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		position: absolute;
+
+	}
+
+	#Logos li, #Logos a
+	{
+		height: 34px;
+		display: block;
+	}
+
+	#NotificationsLogo
+	{
+		position: absolute;
+		top: -65px;
+		left: 122%;
+		width: 34px;
+		color: white;
+		background: url('imgs/NotificationsSprites.png') -29px 0;
+	}
+	#NotificationsLogo:hover
+	{
+		position: absolute;
+		top: -65px;
+		left: 122%;
+		width: 34px;
+		color: #FFD800;
+		background: url('imgs/NotificationsSprites.png') -29px 34px;
+		cursor: pointer;
+	}
+
+	#NotificationsLogo a
+	{
+		color: white;
+	}
+	#NotificationsLogo:hover a
+	{
+		color: #FFD800;
+
+	}
+	#notifiers{
+		width: 0px;
+		color: #F1F2F3;
+	}
+	#notificationText
+	{
+		position: absolute;
+		text-decoration: none;
+		font-size: 115%;
+		top: 8px;
+		left: 40px;
+	}
+	#RequestsLogo
+	{
+		position: absolute;
+		top: -65px;
+		left: 578%;
+		width: 29px;
+		background: url('imgs/NotificationsSprites.png') 0 0;
+	}
+	#RequestsLogo:hover
+	{
+		position: absolute;
+		top: -65px;
+		left: 578%;
+		width: 29px;
+		background: url('imgs/NotificationsSprites.png') 0 34px;
+		cursor: pointer; cursor: hand;
+	}
+
+	#RequestsLogo a{
+		color: white;
+	}
+	#RequestsLogo:hover a
+	{
+		color: #FFD800;
+
+	}
+
+	#requestText
+	{
+		position: absolute;
+		text-decoration: none;
+		font-size: 115%;
+		top: -4px;
+		left: 30px;
+		width: 80px;
+		text-align: center;
+	}
+
+/**/
+
+/*Calendar*/
+	#CalendarMonth
+	{
+	    left: -0.51%;
+	    top: 19%;
+	    position: relative;
+	    width: 100.35%;
+	    height: 109%;
+	    border-style: hidden;
+	    color: #FFF;
+
+	}
+	#MonthName {
+	    position: relative;
+	    width: 100%;
+	    font-size: 250%;
+	    height: 100%;
+	    top: 48%;
+			font-family: 'Roboto', sans-serif;
+			 z-index: 50;
+			 color: black;
+	}
+	#CalendarTable
+	{
+	    position: relative;
+	    width: 94.8%;
+	    left: 2.4%;
+	    top: 61%;
+	}
+	#WeekDay
+	{
+		height: 200%;
+		left: 200px;
+	}
+	table
+	{
+		position: relative;
+		border-collapse: collapse ;
+		/*border-radius: 15px;*/
+	    border-style: hidden; /* hide standard table (collapsed) border */
+	   table-layout: fixed;
+
+	      outline: none;
+
+
+	}
+	#DaysOfWeek{
+		position: relative;
+		right: 43%;
+	}
+	#Day
+	{
+		width: 14%;
+
+		line-height: 150%;
+		background-color: #FFE63A;
+		border-style: solid;
+		border-collapse: collapse;;
+		border: 1px solid #FFE63A;
+
+
+	}
+
+	#TheCalendar {
+
+			padding-top: 10px;
+			top: 100%;
+			-webkit-border-radius: 15px;
+			height: 510px;
+			word-wrap:break-word;
+
+
+	}
+	#calendarBorder{
+		position: absolute;
+		top: 112px;
+		left: 2.5%;
+		border: 10px solid #e9eaed;/**/
+		border-width: 6px 6px 7px 7px;
+		 width: 94.1%;
+		height: 552px;
+		z-index: 60;
+		border-radius: 9px;
+		box-shadow: 0px 1px 8px 0 0 black inset;
+		pointer-events: none;
+
+	}
+	th
+	{
+
+		width: 14%;
+		line-height: 200%;
+		border: 1px hidden #005593;
+		border-width: 120%;
+		border-bottom: 1px solid black;
+		color: white;
+		font-size: 20px;
+
+
+	}
+	#Event
+	{
+		border: 1px solid black;
+		border-collapse: collapse;
+		background-color: white;
+		line-height: 300%;
+		height: 72px;
+		border-bottom-color: white;
+		width: 14%;
+		word-wrap:break-word;
+
+	}
+	#OpenEditorButtons{
+		border: none;
+		background: none;
+		width: 100%;
+		display: inline-block;
+		word-wrap:break-word;
+		}
+
+
+/**/
+
+/*mouse things*/
+	.leftTooltip {
+			border-bottom: 1px #000000; color: #000000; outline: none;
+			text-decoration: none;
+
+			position: relative;
+
+		}
+		.leftTooltip span {
+			margin-left: -999em;
+			position: absolute;
+			left: 1000px;
+
+		}
+		.leftTooltip:hover span {
+
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: -18em; top: 2em;  z-index: 64;
+			margin-left: 0; width: 250px;
+		}
+		.leftTooltip:hover img {
+			border: 0; margin: -10px 0 0 -55px;
+			float: left; position: absolute;
+		}
+		.leftTooltip:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		.classic { padding: 0.8em 1em;
+			background-color: black;
+			color: white;
+			 }
+
+			 .rightTooltip {
+			border-bottom: 1px #000000; color: #000000; outline: none;
+			text-decoration: none;
+
+			position: relative;
+
+		}
+		.rightTooltip span {
+			margin-left: -1200em;
+			position: absolute;
+			left: 1200px;
+
+		}
+		.rightTooltip:hover span {
+
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 6em; top: 2em;  z-index: 64;
+			margin-left: 0; width: 250px;
+		}
+		.rightTooltip:hover img {
+			border: 0; margin: -10px 0 0 -55px;
+			float: left; position: absolute;
+		}
+		.rightTooltip:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		* html a:hover { background: transparent; }
+/**/
+
+/*Feed*/
+	input {
+    	-webkit-appearance: none;
+    	border-radius: 0;
+	}
+	#Feed
+	{
+		position: relative;
+		width: 100%;
+		top: 75%;
+		height: 100%;
+		z-index: 47;
+	}
+
+	#Updates{
+		position: relative;
+		width: 42%;
+		left: 28.5%;
+		height: 2000px;
+		border-radius: 15px;
+	}
+	#UpdatesMessages{
+		position: relative;
+		top: 2%;
+		height: 9%;
+		width: 100%;
+	}
+	#FeedEvent{
+		position: relative;
+		margin-top: 10px;
+		width: 99.5%;
+		height: 100%;
+		border-right: solid 2px #e0dfe4;
+		border-bottom: solid 2px #e0dfe4;
+		border-left: solid 2px #e7e6ea;
+		border-left: solid 2px #e7e6ea;
+		border-radius: 3px;
+		background-color: white;
+	}
+	#LoadMore{
+		position: relative;
+		margin-top: 10px;
+		width: 99.5%;
+		height: 50%;
+		border: solid 0px #D8D8D8;
+		border-radius: 15px;
+		background-color: white;
+		box-shadow: 1px 1px 2px black;
+	}
+	#LoadMoreText{
+		position: relative;
+		padding-top: 30px;
+		text-decoration: none;
+		border-width: 0px;
+		color: #6D84B4;
+		background-color: white;
+	}
+	#LoadMoreText:hover{
+
+		position: relative;
+		padding-top: 30px;
+		text-decoration: underline;
+		border-width: 0px;
+		color: #6D84B4;
+		background-color: white;
+	}
+	#MoreFriendText{
+		position: relative;
+		top: 30px;
+		border-width: 0px;
+	}
+	#feedEventName{
+		padding-top: 25px;
+		position: relative;
+		text-align: center;
+		display: inline-block;
+	}
+	#eventInfo{
+		right: 3px;
+		position: relative;
+		display: inline-block;
+		text-align: left;
+	}
+
+	#feedEventDate{
+		position: relative;
+		text-align: right;;
+	}
+	#feedEventTime{
+		position: relative;
+		text-align: center;
+		display: inline-block;
+		width: auto;
+		white-space:nowrap;
+	}
+	#LikeText{
+	position: relative;
+	top: 15px;
+	text-decoration: none;
+	font-size: 12pt;
+	border-width: 0px;
+	color: #009688;
+	background-color: white;
+	right: 40px;
+	-webkit-border-radius:0px;
+}
+#LikeText:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#CommentText{
+	position: relative;
+	top: -8px;
+	text-decoration: none;
+	font-size: 12pt;
+	border-width: 0px;
+	color: #009688;
+	background-color: white;
+	left: 40px;
+	-webkit-border-radius:0px;
+}
+#CommentText:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+	#otherLikes{
+		right: 4px;
+		top: 4px;
+		position: relative;
+		-webkit-border-radius:0px;
+	}
+	#otherLikes a{
+		color: #009688;
+		text-decoration: none;
+		-webkit-border-radius:0px;
+	}
+	#otherLikes a:hover{
+		color: #009688;
+		text-decoration: underline;
+		-webkit-border-radius:0px;
+	}
+	#otherLikesButton{
+		border-style: solid;
+		background-color: white;
+		color: #009688;
+		text-decoration: none;
+		text-align: left;
+		border-color: white;
+		font-size: 88%;
+		-webkit-border-radius:0px;
+	}
+	#otherLikesButton:hover{
+		background-color: white;
+		border-style: solid;
+		color: #009688;
+		text-decoration: underline;
+		text-align: left;
+		border-color: white;
+		font-size: 88%;
+		-webkit-border-radius:0px;
+	}
+	#FeedTypeSelect{
+		padding-bottom: 0px;
+	}
+	#nameLink{
+		display: inline-block;
+		text-align: center;
+		text-decoration:none;
+		position: relative;
+		color: #009688;
+		font-weight: bold;
+
+	}
+	#nameLink:hover{
+		text-decoration: underline;
+		position: relative;
+		color: #009688;
+		font-weight: bold;
+	}
+	#feedNickname{
+		position: relative;
+		font-size: 75%;
+		color: #8899A6;
+		top: -5px;
+	}
+
+	#Recommend1
+	{
+		position: relative;
+		top: -2225%;
+		left: 2.0%;
+		width: 25%;
+		height: 100%;
+		border-radius: 15px;
+		background-color: white;
+		border-style: solid;
+		border-width: 100%;
+		border-color: #005593;
+	}
+	#Recommend2
+	{
+		position: absolute;
+		left: 72%;
+		top: 0%;
+		width: 25%;
+		height: 100%;
+		border-radius: 15px;
+		background-color: white;
+		border-style: solid;
+		border-width: 100%;
+		border-color: #005593;
+	}
+/**/
+
+/*Other Likes*/
+	#OtherLikes{
+		position: fixed;
+		width: 332px;
+		left: 38.6%;
+		top: 10%;
+		height: 305px;
+		background-color: #FFF;
+		border-radius: 15px;
+		z-index: 62;
+		overflow: auto;
+	}
+	#otherLikesBannerReal {
+	    position: fixed;
+		width:332px;
+		top: 10%;
+		height: 33px;
+		background-color: #F4F4F4;
+		border-style: hidden hidden solid hidden;
+		border-color: #8899A6;
+		border-collapse: collapse;
+		border-width: 1px;
+		font-weight: bold;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		z-index: 60;
+
+		text-align: center;
+	}
+
+
+
+	#otherBannerText
+	{
+		font-size: 140%;
+		position: relative;
+		bottom: 20px;
+		right: 15%;
+	}
+	#indivLikes{
+		position: relative;
+		width: 332px;
+		height: 49px;
+		border-top-style: solid;
+		border-color: #8899A6;
+		border-bottom-style: hidden;;
+		border-collapse: collapse;
+		border-width: 1px;
+		border-left-style: hidden;
+		font-size: 120%;
+	}
+	#firstIndivLikes{
+		position: relative;
+		padding-top: 33px;
+		width: 332px;
+		height: 49px;
+		border-top-style: hidden;
+		border-bottom-style: hidden;;
+		border-collapse: collapse;
+		border-width: 1px;
+		border-left-style: hidden;
+		font-size: 120%;
+	}
+	#otherLikesNameLink{
+		position: relative;
+		left: 5px;
+		display: inline-block;
+		text-decoration: none;
+		color: #3F5296; /*or 3F5296*/
+		font-weight: bold;
+	}
+	#otherLikesNameLink:hover{
+		text-decoration: underline;
+		position: relative;
+		color: #3F5296;
+		font-weight: bold;
+	}
+
+	#otherLikesNickname{
+		float: right;
+		position: relative;
+		text-align: right;
+		right: 20px;
+		color: #8899A6;
+	}
+	#closeOtherLikes
+	{
+		position: relative;
+		left: 148px;
+		border-style: hidden;
+		bottom: 70px;
+		background-color: #F4F4F4;
+		color: black;
+	}
+/**/
+/*Comments*/
+	#Comments{
+		position: fixed;
+		vertical-align: middle;
+		height: 387px;
+		width: 892px;
+		top: 129px;
+		text-align: center;
+		left: 16.6%;
+		background-color: white;
+		border-top-right-radius: 7px;
+		border-top-left-radius: 7px;
+		border-top-style: hidden;
+
+
+		z-index: 62;
+	}
+	#Comments2{
+		position: fixed;
+		vertical-align: middle;
+		width: 65.3%;
+		height: 12%;
+		top: 78%;
+		text-align: center;
+		left: 16.6%;
+		background-color: #FFF;
+		border: 1px solid #808080;
+		border-radius: 5px;
+		z-index: 62;
+	}
+	#CommentBanner{
+		position: relative;
+		width: 100%;
+		height: 20px;
+		background-color: #005593;
+		top: -98.5%;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		z-index: 64;
+	}
+
+	#CommentContainer{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		top: 7%;
+	}
+	#Comment{
+		position: relative;
+		background-color: white;
+		height: 81px;
+		width: 100%;
+		border: 1px solid gray;
+		border-bottom-style: hidden;
+		top: -0%;
+		border-left-style: hidden;;
+		border-right-style:hidden;
+
+	}
+	#info{
+		position: relative;
+		width: 100%;
+		text-align: left
+	}
+	#commentName{
+		position: relative;
+		display: inline-block;
+		font-size: 130%;
+		text-align: left;
+		text-decoration: none;
+		color: #3F5296;
+	}
+	#commentName:hover{
+		text-decoration: underline;
+
+	}
+	#CommentNickname{
+		position: relative;
+		display: inline-block;
+		font-size: 130%;
+		text-align: left;
+		padding-left: 5px;
+		color: #8899A6;
+	}
+	#Words{
+		position: relative;
+		width: 100%;
+		text-align: left;
+	}
+	#CommentWords{
+		font-size: 148%;
+		word-wrap:break-word;
+	}
+	#writingSection{
+		position: fixed;
+		background-color: gray;
+		height: 40px;
+		left: 16.65%;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		z-index: 63;
+		width: 892px;
+		top: 516px;
+	}
+	#commentWriter{
+		position: relative;
+		top: 6%;
+		width: 96%;
+		height: 70%;
+		z-index: 63;
+		resize: none;
+		left: 1.5%;
+	}
+	#CommentExitButton{
+		position: relative;
+		top: -405px;
+		width: 15px;
+		height: 15px;
+		text-align: center;
+		vertical-align: middle;;
+background-color : transparent;
+		border-style: hidden;
+		cursor: pointer;
+	}
+	#CommentExitButton:hover{
+		 cursor: hand;
+	}
+
+/**/
+/*Add Events*/
+	#AddEvent
+	{
+		position: absolute;
+		border: 1px solid black;
+		background-color: white;
+		left: 25%;
+		top: 15%;
+		height: 247px;
+		width: 677px;
+		 z-index: 62;
+		 border-radius: 15px;
+	}
+	#EventNameInput
+	{
+		position: absolute;
+		left: 19.5%;
+		top: 5%;
+		width: 411px;
+		height: 22px;
+		text-align: center;
+	}
+	#StartingDates
+	{
+		position: absolute;
+		top: 19%;
+		right: 80.85%;
+		width: 90px;
+		height: 20px;
+	}
+	#StartingMonth
+	{
+		position: absolute;
+		top: 19%;
+		right: 66.5%;
+		width: 94px;
+		height: 20px;
+	}
+	#StartingDay
+	{
+		position: absolute;
+		top: 19%;
+		right: 59.5%;
+		width: 41px;
+		height: 20px;
+	}
+	#EndingDates
+	{
+		position: absolute;
+		top: 19%;
+		left: 53%;
+		width: 90px;
+		height: 20px;
+	}
+	#EndingMonth
+	{
+		position: absolute;
+		top: 19%;
+		left: 66.2%;
+		width: 100px;
+		height: 20px;
+	}
+	#EndingDay
+	{
+		position: absolute;
+		top: 19%;
+		left: 81.8%;
+		width: 41px;
+		height: 20px;
+	}
+	#StartingTimes{
+		position: absolute;
+		top: 29.5%;
+		right: 80.5%;
+		width: 93px;
+		height: 20px;
+
+	}
+	#StartingHour{
+		position: absolute;
+		top:29.5%;
+		right:74%;
+		width: 41px;
+		height: 20px;
+	}
+	#StartingMinute
+	{
+
+		position: absolute;
+		top: 29.5%;
+		right: 67.15%;
+		width: 41px;
+		height: 20px;
+	}
+	#StartingAMPM
+	{
+
+		position: absolute;
+		top: 29.5%;
+		right: 59.6%;
+		width: 47px;
+		height: 20px;
+	}
+	#EndingTimes
+	{
+
+		position: absolute;
+		top: 29.5%;
+		left: 52.95%;
+		width: 90px;
+		height: 20px;
+	}
+	#Ending_Hour
+	{
+		position: absolute;
+		top: 29.5%;
+		left: 66.1%;
+		width: 41px;
+		height: 20px;
+	}
+	#Ending_Minute
+	{
+		position: absolute;
+		top: 29.5%;
+		left: 73.05%;
+		width: 41px;
+		height: 20px;
+	}
+	#EndingAMPM
+	{
+		position: absolute;
+		top: 29.5%;
+		left: 79.6%;
+		width: 56px;
+		height: 20px;
+	}
+	#RepeatText
+	{
+	position: absolute;
+	top: 40%;
+	left: 47%;
+	}
+	#RepeatType
+	{
+		position: absolute;
+		top: 49%;
+		left: 45.5%;
+	}
+	#EndRepeatMonth
+	{
+		position: absolute;
+		top: 62%;
+		left: 41%;
+	}
+	#EndRepeatDay
+	{
+		position: absolute;
+		top: 62%;
+		left: 56%;
+	}
+	#AddEventButton
+	{
+		position: absolute;
+		top: 75%;
+		left: 280px;
+	}
+	#Visibility
+	{
+		position: absolute;
+		top: 89%;
+		left: 89.3%;
+	}
+	#RegVisibility
+	{
+		position: absolute;
+		top: 89%;
+		left: 89.3%;
+	}
+	#Exit
+	{
+		position: absolute;
+		top: 4px;
+		left: 95.3%;
+		border-style: none;
+		color: gray;
+		background-color: white;
+	}
+/**/
+
+/*Edit Events*/
+	#EditEvent
+	{
+		position: absolute;
+		border: 1px solid black;
+		background-color: white;
+		left: 25%;
+		top: 15%;
+		height: 247px;
+		width: 677px;
+		 z-index: 62;
+		 border-radius: 15px;
+	}
+	#EditEventNameInput
+	{
+		position: absolute;
+		left: 19.5%;
+		top: 5%;
+		width: 411px;
+		height: 22px;
+		text-align: center;
+	}
+	#EditStartingDates
+	{
+		position: absolute;
+		top: 19%;
+		right: 80.85%;
+		width: 90px;
+		height: 20px;
+	}
+	#EditStartingMonth
+	{
+		position: absolute;
+		top: 19%;
+		right: 66.5%;
+		width: 94px;
+		height: 20px;
+	}
+	#EditStartingDay
+	{
+		position: absolute;
+		top: 19%;
+		right: 59.5%;
+		width: 41px;
+		height: 20px;
+	}
+	#EditEndingDates
+	{
+		position: absolute;
+		top: 19%;
+		left: 53%;
+		width: 90px;
+		height: 20px;
+	}
+	#EditEndingMonth
+	{
+		position: absolute;
+		top: 19%;
+		left: 66.2%;
+		width: 100px;
+		height: 20px;
+	}
+	#EditEndingDay
+	{
+		position: absolute;
+		top: 19%;
+		left: 81.5%;
+		width: 41px;
+		height: 20px;
+	}
+	#EditStartingTimes{
+		position: absolute;
+		top: 29.5%;
+		right: 80.5%;
+		width: 93px;
+		height: 20px;
+	}
+	#EditStartingHour{
+		position: absolute;
+		top:29.5%;
+		right:74%;
+		width: 41px;
+		height: 20px;
+	}
+	#EditStartingMinute
+	{
+
+		position: absolute;
+		top: 29.5%;
+		right: 67.15%;
+		width: 41px;
+		height: 20px;
+	}
+	#EditStartingAMPM
+	{
+
+		position: absolute;
+		top: 29.5%;
+		right: 59.6%;
+		width: 47px;
+		height: 20px;
+	}
+	#EditEndingTimes
+	{
+
+		position: absolute;
+		top: 29.5%;
+		left: 52.95%;
+		width: 90px;
+		height: 20px;
+	}
+	#EditEnding_Hour
+	{
+		position: absolute;
+		top: 29.5%;
+		left: 66.6%;
+		width: 41px;
+		height: 20px;
+	}
+	#EditEnding_Minute
+	{
+		position: absolute;
+		top: 29.5%;
+		left: 73.55%;
+		width: 41px;
+		height: 20px;
+	}
+	#EditEndingAMPM
+	{
+		position: absolute;
+		top: 29.5%;
+		left: 80.1%;
+		width: 48px;
+		height: 20px;
+	}
+	#EditRepeatText
+	{
+	position: absolute;
+	top: 40%;
+	left: 47%;
+	}
+	#EditRepeatType
+	{
+		position: absolute;
+		top: 49%;
+		left: 290px;
+	}
+	#EditEndRepeatMonth
+	{
+		position: absolute;
+		top: 62%;
+		left: 41%;
+	}
+	#EditEndRepeatDay
+	{
+		position: absolute;
+		top: 62%;
+		left: 56%;
+	}
+	#EditEventButton
+	{
+		position: absolute;
+		top: 66%;
+		left: 298px;
+	}
+	#EditVisibility
+	{
+		position: absolute;
+		top: 89%;
+		left: 89.3%;
+	}
+	#EditExit
+	{
+		position: absolute;
+		top: 4px;
+		left: 95.3%;
+	}
+/**/
+
+/*Other*/
+	.dim {
+	    height:100%;
+	    width:100%;
+	    position:fixed;
+	    left:0;
+	    top:0;
+	    background-color:black;
+	    filter: alpha(opacity=75); /* internet explorer */
+	    -khtml-opacity: 0.75;      /* khtml, old safari */
+	      -moz-opacity: 0.75;      /* mozilla, netscape */
+	           opacity: 0.75;      /* fx, safari, opera */
+	           z-index: 61;
+	}
+	#logoutText{
+		position: absolute;
+		top: 99%;
+		left: 160%;
+	}
+	#recognitionText
+	{
+		position: absolute;
+		top: 99%;
+		right: 152%;
+	}
+/*

@@ -1,0 +1,257 @@
+#jewel{
+  position: relative;
+  top: 2px;
+  left: 48.5%;
+}
+
+#RightArrow
+{
+  position: relative;
+  top: -40px;
+  left: 57.5%;
+   z-index: 50;
+}
+#LeftArrow
+{
+  position: relative;
+  top: -40px;
+  left: 39%;
+   z-index: 50;
+}
+#FriendsRightArrow
+{
+  position: relative;
+  top: -50px;
+  left: 69.5%;
+   z-index: 50;
+}
+#FriendsLeftArrow
+{
+  position: relative;
+  top: -50px;
+  left: 28%;
+   z-index: 50;
+}
+#searchName{
+  text-decoration: none;
+  color: #009688;
+  font-weight: bold;
+  height: 140%;
+}
+#searchName:hover{
+  text-decoration: underline;
+}
+#Search
+{
+  background: url(linktomagnifier.png) no-repeat scroll right center white !important;
+
+  padding-right: 17px !important;
+  text-decoration:none;
+  height: 65%;
+  border-style: solid;
+  border-width: 100%;
+  border-color: white;
+  border-radius: 30px;
+  position: relative;
+  top: -15px;
+  width: 15%;
+  left: 62.2%;
+}
+
+#LiveSearch
+{
+  position: absolute;
+  background-color: white;
+  text-decoration:none;
+  width: 15%;
+  left: 66.8%;
+  color: gray;
+  top: 86%;
+}
+
+#AddButton
+{
+  position: relative;
+  top: -15px;
+  left: 63%;
+  width: 14%;
+  height: 35px;
+    border: 5px solid white;
+    border-radius: 8px;
+    background-color: white;
+    text-decoration: none;
+
+}
+#notificationsAmountContainer{
+  position: absolute;
+  left: 231px;
+  top: -3px;
+
+}
+#notificationAmountText{
+  color: white;
+  font-size: 90%;
+  background-color: red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  height: 15px;
+  line-height:15px;
+  border-radius: 2px;
+  width: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+#requestsAmountContainer{
+  position: absolute;
+  left: 23px;
+  top: -3px;
+}
+#requestsAmountText{
+  color: white;
+  font-size: 90%;
+  background-color: red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  height: 15px;
+  line-height:15px;
+  border-radius: 2px;
+  width: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#BarBanner
+	{
+		left: 0;
+		top: 0;
+		width: 99.5%;
+		height: 52px;
+		position: fixed;
+		border-style: solid;
+		border-width: 100%;
+		border-color:#009688;
+		border-bottom: 1px solid  white;
+		 z-index: 60;
+
+
+		background-color: #009688;
+	}
+
+	#Banner
+	{
+		left: 0;
+		top: 0;
+		width: 99.5%;
+		height: 50px;
+		position: absolute;
+		border-style: solid;
+		border-width: 100%;
+		border-color: #009688 ;
+		background-color: #009688 ;
+	}
+
+	#Logos
+	{
+		position: absolute;
+    top: 0px;
+    left: 0px;
+	}
+	#Logos tr td{
+    padding:3px 0px;
+    text-align: center;
+    display:inline-block;
+    height:34px;
+  }
+
+  .table-elements a{
+    padding: 0 26px 0 8px;
+    position: relative;
+  }
+  #notifications-table-box:hover{
+    cursor: pointer;
+  }
+  #request-table-box:hover{
+    cursor: pointer;
+  }
+
+
+	#NotificationsLogo
+	{
+    top: 100px;
+		width: 34px;
+    height: 34px;
+		color: white;
+    display: inline-block;
+		background: url('imgs/NotificationsSprites.png') -29px 0;
+    z-index: 100;
+	}
+	#NotificationsLogo:hover
+	{
+		width: 34px;
+		color: #FFD800;
+		background: url('imgs/NotificationsSprites.png') -29px 34px;
+		cursor: pointer;
+	}
+
+	#NotificationsLogo a
+	{
+		color: white;
+	}
+	#NotificationsLogo:hover a
+	{
+		color: #FFD800;
+
+	}
+	#notifiers{
+		width: 0px;
+		color: #E9EAED;
+	}
+	#notificationText
+	{
+		text-decoration: none;
+		font-size: 115%;
+    color:white;
+	}
+  #notificationText:hover{
+    color: #FFD800
+  }
+
+	#RequestsLogo
+	{
+		position: relative;
+		width: 29px;
+    height:34px;
+    display: inline-block;
+		background: url('imgs/NotificationsSprites.png') 0 0;
+	}
+	#RequestsLogo:hover
+	{
+		position: relative;
+		width: 29px;
+		background: url('imgs/NotificationsSprites.png') 0 34px;
+		cursor: pointer; cursor: pointer;
+	}
+
+	#RequestsLogo a{
+		color: white;
+	}
+	#RequestsLogo:hover a
+	{
+		color: #FFD800;
+
+	}
+
+	#requestText
+	{
+    color:white;
+		text-decoration: none;
+		font-size: 115%;
+	}
+  #requestText:hover{
+    color: #FFD800;
+  }
+
+/**/

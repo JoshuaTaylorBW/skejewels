@@ -1,0 +1,216 @@
+body{
+	background-color: #E9EAED;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+  padding: 0;
+}
+
+/*Feed*/
+input {
+    	-webkit-appearance: none;
+    	border-radius: 0;
+	}
+#Feed{
+		position: relative;
+		width: 100%;
+		top: 75%;
+		height: 100%;
+		z-index: 47;
+	}
+
+#Updates{
+		position: relative;
+		width: 42%;
+		left: 28.5%;
+		height: 2000px;
+		border-radius: 15px;
+	}
+#UpdatesMessages{
+		position: relative;
+		top: 2%;
+		height: 9%;
+		width: 100%;
+	}
+#FeedEvent{
+		position: relative;
+		margin-top: 10px;
+		width: 99.5%;
+		height: 100%;
+		border-right: solid 2px #e0dfe4;
+		border-bottom: solid 2px #e0dfe4;
+		border-left: solid 2px #e7e6ea;
+		border-radius: 3px;
+		background-color: white;
+	}
+#LoadMore{
+		position: relative;
+		margin-top: 10px;
+		width: 99.5%;
+		height: 50%;
+		border: solid 0px #D8D8D8;
+		border-radius: 15px;
+		background-color: white;
+		box-shadow: 1px 1px 2px black;
+	}
+#LoadMoreText{
+		position: relative;
+		padding-top: 30px;
+		text-decoration: none;
+		border-width: 0px;
+		color: #6D84B4;
+		background-color: white;
+	}
+#LoadMoreText:hover{
+
+		position: relative;
+		padding-top: 30px;
+		text-decoration: underline;
+		border-width: 0px;
+		color: #6D84B4;
+		background-color: white;
+	}
+#MoreFriendText{
+		position: relative;
+		top: 30px;
+		border-width: 0px;
+	}
+#feedEventName{
+		padding-top: 25px;
+		position: relative;
+		text-align: center;
+		display: inline-block;
+	}
+#eventInfo{
+		right: 3px;
+		position: relative;
+		display: inline-block;
+		text-align: left;
+	}
+
+#feedEventDate{
+		position: relative;
+		text-align: right;;
+	}
+#feedEventTime{
+		position: relative;
+		text-align: center;
+		display: inline-block;
+		width: auto;
+		white-space:nowrap;
+	}
+#LikeText{
+	position: relative;
+	top: 15px;
+	text-decoration: none;
+	font-size: 12pt;
+	border-width: 0px;
+	color: #009688;
+	background-color: white;
+	right: 40px;
+	-webkit-border-radius:0px;
+}
+#LikeText:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#CommentText{
+	position: relative;
+	top: -8px;
+	text-decoration: none;
+	font-size: 12pt;
+	border-width: 0px;
+	color: #009688;
+	background-color: white;
+	left: 40px;
+	-webkit-border-radius:0px;
+}
+#CommentText:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+#otherLikes{
+	right: 4px;
+	top: 4px;
+	position: relative;
+	-webkit-border-radius:0px;
+}
+#otherLikes a{
+	color: #009688;
+	text-decoration: none;
+	-webkit-border-radius:0px;
+}
+#otherLikes a:hover{
+	color: #009688;
+	text-decoration: underline;
+	-webkit-border-radius:0px;
+}
+#otherLikesButton{
+	border-style: solid;
+	background-color: white;
+	color: #009688;
+	text-decoration: none;
+	text-align: left;
+	border-color: white;
+	font-size: 88%;
+	-webkit-border-radius:0px;
+}
+#otherLikesButton:hover{
+	background-color: white;
+	border-style: solid;
+	color: #009688;
+	text-decoration: underline;
+	text-align: left;
+	border-color: white;
+	font-size: 88%;
+	-webkit-border-radius:0px;
+}
+#FeedTypeSelect{
+	padding-bottom: 0px;
+}
+#nameLink{
+	display: inline-block;
+	text-align: center;
+	text-decoration:none;
+	position: relative;
+	color: #009688;
+	font-weight: bold;
+
+}
+#nameLink:hover{
+	text-decoration: underline;
+	position: relative;
+	color: #009688;
+	font-weight: bold;
+}
+#feedNickname{
+	position: relative;
+	font-size: 75%;
+	color: #8899A6;
+	top: -5px;
+}
+
+#Recommend1{
+	position: relative;
+	top: -2225%;
+	left: 2.0%;
+	width: 25%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: white;
+	border-style: solid;
+	border-width: 100%;
+	border-color: #005593;
+}
+#Recommend2{
+	position: absolute;
+	left: 72%;
+	top: 0%;
+	width: 25%;
+	height: 100%;
+	border-radius: 15px;
+	background-color: white;
+	border-style: solid;
+	border-width: 100%;
+	border-color: #005593;
+}

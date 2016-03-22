@@ -1,0 +1,49 @@
+body{
+	background-color: #3688BA;
+}
+#jewel{
+	position: relative;
+	left: 46%;
+}
+#plus{
+	position: absolute;;
+	left: 81%;
+	bottom: 85%;
+
+}
+#Month{
+	color: white;
+	font-size: 250%;
+	height: 7px;
+}
+hr {
+
+	color: white;
+}
+
+#Events{
+	font-size: 200%;
+}
+
+#NextMonthButton{
+	position: absolute;
+	left: 80%;
+	bottom: 69%;
+}
+
+#PreviousMonthButton{
+	position: absolute;
+	left: 10%;
+	bottom: 69%;
+}
+#FriendsNextMonthButton{
+	position: absolute;
+	left: 80%;
+	bottom: 69%;
+}
+
+#FriendsPreviousMonthButton{
+	position: absolute;
+	left: 10%;
+	bottom: 69%;
+}

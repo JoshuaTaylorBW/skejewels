@@ -1,0 +1,176 @@
+#EditEvent
+{
+  position: absolute;
+  border: 1px solid black;
+  background-color: white;
+  left: 25%;
+  top: 15%;
+  height: 247px;
+  width: 677px;
+   z-index: 62;
+   border-radius: 15px;
+}
+#EditEventNameInput
+{
+  position: absolute;
+  left: 19.5%;
+  top: 5%;
+  width: 411px;
+  height: 22px;
+  text-align: center;
+}
+#EditStartingDates
+{
+  position: absolute;
+  top: 19%;
+  right: 80.85%;
+  width: 90px;
+  height: 20px;
+}
+#EditStartingMonth
+{
+  position: absolute;
+  top: 19%;
+  right: 66.5%;
+  width: 94px;
+  height: 20px;
+}
+#EditStartingDay
+{
+  position: absolute;
+  top: 19%;
+  right: 59.5%;
+  width: 41px;
+  height: 20px;
+}
+#EditEndingDates
+{
+  position: absolute;
+  top: 19%;
+  left: 53%;
+  width: 90px;
+  height: 20px;
+}
+#EditEndingMonth
+{
+  position: absolute;
+  top: 19%;
+  left: 66.2%;
+  width: 100px;
+  height: 20px;
+}
+#EditEndingDay
+{
+  position: absolute;
+  top: 19%;
+  left: 81.5%;
+  width: 41px;
+  height: 20px;
+}
+#EditStartingTimes{
+  position: absolute;
+  top: 29.5%;
+  right: 80.5%;
+  width: 93px;
+  height: 20px;
+}
+#EditStartingHour{
+  position: absolute;
+  top:29.5%;
+  right:74%;
+  width: 41px;
+  height: 20px;
+}
+#EditStartingMinute
+{
+
+  position: absolute;
+  top: 29.5%;
+  right: 67.15%;
+  width: 41px;
+  height: 20px;
+}
+#EditStartingAMPM
+{
+
+  position: absolute;
+  top: 29.5%;
+  right: 59.6%;
+  width: 47px;
+  height: 20px;
+}
+#EditEndingTimes
+{
+
+  position: absolute;
+  top: 29.5%;
+  left: 52.95%;
+  width: 90px;
+  height: 20px;
+}
+#EditEnding_Hour
+{
+  position: absolute;
+  top: 29.5%;
+  left: 66.6%;
+  width: 41px;
+  height: 20px;
+}
+#EditEnding_Minute
+{
+  position: absolute;
+  top: 29.5%;
+  left: 73.55%;
+  width: 41px;
+  height: 20px;
+}
+#EditEndingAMPM
+{
+  position: absolute;
+  top: 29.5%;
+  left: 80.1%;
+  width: 48px;
+  height: 20px;
+}
+#EditRepeatText
+{
+position: absolute;
+top: 40%;
+left: 47%;
+}
+#EditRepeatType
+{
+  position: absolute;
+  top: 49%;
+  left: 290px;
+}
+#EditEndRepeatMonth
+{
+  position: absolute;
+  top: 62%;
+  left: 41%;
+}
+#EditEndRepeatDay
+{
+  position: absolute;
+  top: 62%;
+  left: 56%;
+}
+#EditEventButton
+{
+  position: absolute;
+  top: 66%;
+  left: 298px;
+}
+#EditVisibility
+{
+  position: absolute;
+  top: 89%;
+  left: 89.3%;
+}
+#EditExit
+{
+  position: absolute;
+  top: 4px;
+  left: 95.3%;
+}

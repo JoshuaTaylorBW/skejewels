@@ -1,0 +1,56 @@
+-- phpMyAdmin SQL Dump
+-- version 3.3.10.4
+-- http://www.phpmyadmin.net
+--
+-- Host: homecomp.skejewels.com
+-- Generation Time: Jan 28, 2016 at 09:12 AM
+-- Server version: 5.6.25
+-- PHP Version: 5.5.26
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `skejewels`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Username` varchar(45) NOT NULL,
+  `Password` varchar(45) NOT NULL,
+  `Nickname` varchar(45) NOT NULL,
+  `UserFirstName` varchar(45) NOT NULL,
+  `UserLastName` varchar(45) NOT NULL,
+  `Friends` longtext NOT NULL,
+  `RequestsFrom` longtext,
+  `Notifications` longtext NOT NULL,
+  `NewNotifications` int(11) DEFAULT NULL,
+  `NewFriends` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=185 ;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `Username`, `Password`, `Nickname`, `UserFirstName`, `UserLastName`, `Friends`, `RequestsFrom`, `Notifications`, `NewNotifications`, `NewFriends`) VALUES
+(1, 'j80mar4@gmail.com', '7e6e11a9b499a66648e22d27a71e0795', 'JoshuaTaylor8', 'Josh', 'Sparks', '166,1,170,174,173,166,166,166,166,166,166,71,176,182,', '0', '182,brandon jewell,    liked your event ,Change Skejewel Pictures,119?^--^?1,Josh Sparks,  said ''Nothing Right'' on  your event ,Moving into Apartment ,141?^--^?1,Josh Sparks,  said ''Something wrong'' on  your event ,Moving into Apartment ,141?^--^?1,Josh Sparks,  said Comment on  your event ,December 14th,271?^--^?1,Josh Sparks,    liked your event ,December 16th,272?^--^?1,Josh Sparks,  said Water Bottle Cotter Sottle on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks,  said safsdfasdffas on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks,  said This is another comment I hope you enjoy it on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks,  said Less on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks,  said More on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks,  said Thanks guys!! on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks,  said Ouch dude good luck! on  your event ,Wisdom Teeth Removal,157?^--^?1,Josh Sparks, has accepted your friend request.,0?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,  said Second on  your event ,Last Day on Staff,120?^--^?1,Josh Sparks,  said fifth on  your event ,August,17?^--^?1,Josh Sparks,  said fourth on  your event ,August,17?^--^?1,Josh Sparks,  said *third on  your event ,August,17?^--^?1,Josh Sparks,  said thrid on  your event ,August,17?^--^?1,Josh Sparks,  said second on  your event ,August,17?^--^?1,Josh Sparks,  said first on  your event ,August,17?^--^?1,Josh Sparks,  said This should be newest on  your event ,Get Haircut,106?^--^?1,Josh Sparks,  said First on  your event ,Last Day on Staff,120?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,    liked your event ,Last Day on Staff,120?^--^?1,Josh Sparks,  said Does this work always? on  your event ,Last Day on Staff,120?^--^?1,Josh Sparks,  said Now this is sixth! on  your event ,Last Day on Staff,120?^--^?2', 0, 0),
+(166, 'Natalya.sparks@live.com', '8df1fe175709f08315e33ebdd5be75fe', 'Natalya', 'Natalya', 'Sparks', '1,169,174,1,1,1,1,1,1,', '0', '1,Josh Sparks, has accepted your friend request.?^--^?', 0, 0),
+(169, 'cristinasparks@live.com', '9b5def9ec5403d5284f1867774aa919f', 'cris', 'Cris', 'Sparks', '166,', '174,1,', '', NULL, 2),
+(170, 'mailguytm@gmail.com', 'efc7ad6ccc34a1492647d3377c1f3e8a', 'Torrobro', 'Terrence', 'Mullen', '1,', '0', '1,Josh Sparks,    liked your event ,Moving into Apartment ,141?^--^?1,Josh Sparks,    liked your event ,Global Dub,140?^--^?1,Josh Sparks,    liked your event ,Global Dub,140?^--^?', 1, 0),
+(173, 'grisham.connor27@gmail.com', '4a4a8cc01016382f7badae1a0a69b0a6', 'cmg_of_hr', 'Connor', 'Grisham', '1', '0', '', 0, 0),
+(174, 'Jonatsparks@aol.com', '7f794ae5215f575635f8798314b9754a', 'sparkythefisherman', 'John', 'Sparks', '1,166,', '182,', '', NULL, 1),
+(176, 'krozetp@gmail.com', '33a63afabc8a62f1c73e905f97bf151d', 'Kurt_DR', 'Kurt', 'Rozelle', '', '1,', '', NULL, 1),
+(177, '', 'd41d8cd98f00b204e9800998ecf8427e', '', '', '', '', NULL, '', NULL, 0),
+(178, 'asherfarr99@gmail.com', 'cdcd36a9661004241d335765636f51f8', 'asherfarr99@gmail.com', 'Asher', 'Farr', '', NULL, '', 0, 0),
+(179, 'rklambo@gmail.com', '8855260ade6e2d0de0ef708c42361b82', 'ryan.natwick', 'Ryan', 'Natwick', '', NULL, '', NULL, 0),
+(180, '', 'd41d8cd98f00b204e9800998ecf8427e', '', '', '', '', NULL, '', NULL, 0),
+(181, '', 'd41d8cd98f00b204e9800998ecf8427e', '', '', '', '', NULL, '', NULL, 0),
+(182, 'brandon.royce.jewell@gmail.com', '2ba880236ae185b83f2a977ccd154b71', 'brandon.royce.jewell@gmail.com', 'brandon', 'jewell', '1,', NULL, '1,Josh Sparks, has accepted your friend request.,0?^--^?', 0, 0),
+(183, '', 'd41d8cd98f00b204e9800998ecf8427e', '', '', '', '', NULL, '', NULL, 0),
+(184, 'asherfarr99@gmail.com', 'cdcd36a9661004241d335765636f51f8', '@ashcash', 'Asher', 'Farr', '', NULL, '', NULL, 0);

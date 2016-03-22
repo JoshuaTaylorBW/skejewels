@@ -1,0 +1,197 @@
+#jewel2{
+  position: absolute;
+  bottom: -0%;
+  left: 0%;
+}
+#Message
+{
+  position: absolute;
+  top: 25%;
+  color: white;
+}
+#MessageTitle
+{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 400%;
+}
+#MessageContents
+{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 180%;
+  bottom: 40px;
+}
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+
+  z-index: 0;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  z-index: 0;
+}
+
+#loginBox{
+position: absolute;
+border: 2px solid #a1a1a1;
+padding: 10px 40px;
+background: white;
+width: 20%;
+height: 14%;
+border-radius: 5px;
+left:0;
+right:-40%;
+top:-38%;
+bottom:0;
+margin: auto;
+text-align: left;
+}
+
+#Register{
+  position: absolute;
+  border: 2px solid #a1a1a1;
+  padding: 10px 40px;
+  background: white;
+  width: 20%;
+  height: 32.5%;
+  border-radius: 5px;
+  left:0;
+  right: -40%;
+  top:42%;
+  margin: auto;
+  text-align: left;
+}
+
+#wrappert{
+height: 10%;
+width: 100%;
+display: table;
+}
+
+
+
+#usernameBox
+{
+  position: absolute;
+  left: 60%;
+  top: 24.5%;
+  width: 20%;
+ height: 3.75%;
+}
+#passBox
+{
+  position: absolute;
+  left: 60%;
+  top: 30%;
+  width: 11%;
+  height: 3.75%;
+}
+#LoginButton{
+  position: absolute;
+  left: 72%;
+  top: 29.7%;
+  width: 8.5%;
+  height: 4.8%;
+  background-color: #009688;
+  color: white;
+  font-size: 32;
+}
+
+#RememberMe{
+  position: absolute;
+  left: 59.75%;
+  top: 35%;
+}
+
+#verticality
+{
+  height: 10%;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+#rememberText{
+  position: absolute;
+  left: 61.4%;
+  top: 34.75%;
+  color: #828282;
+}
+
+#SignUpText{
+  position: absolute;
+  top: -12%;
+  left: 12%;
+  font-size: 150%;
+}
+#FirstNameBox
+{
+  position: absolute;
+  left: 60%;
+  top: 49.5%;
+  width: 9.5%;
+  height: 3.75%;
+}
+#LastNameBox
+{
+  position: absolute;
+  left: 70.25%;
+  top: 49.5%;
+  width: 9.75%;
+  height: 3.75%;
+}
+#EmailBox2{
+  position: absolute;
+  left: 60%;
+  top: 55%;
+  width: 20%;
+  height: 3.75%;
+}
+#usernameBox2{
+  position: absolute;
+  left: 60%;
+  top: 60.5%;
+  width: 20%;
+  height: 3.75%;
+}
+#passBox2{
+  position: absolute;
+  left: 60%;
+  top: 66%;
+  width: 20%;
+  height: 3.75%;
+}
+
+#LoginButton2
+{
+  position: absolute;
+  left: 70.5%;
+  top: 71.5%;
+  width: 10%;
+  height: 4.8%;
+  background-color: #FFD900;
+  color: black;
+  font-size: 32;
+}
+#Terms
+{
+position: absolute;
+top: 95%;
+font-size: 80%;
+width: 98%;
+text-align: center;
+color: white;
+}

@@ -1,0 +1,41 @@
+body{
+	background-color: #E9EAED;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+  padding: 0;
+}
+#GoHomeButton
+{
+	position: absolute;
+	top: 24%;
+	left: 50.5%;
+	width: 48.5%;
+	height: 74%;
+	font-size: 60px;
+}
+
+#AddAsFriendButton
+{
+	position: absolute;
+	top: 24%;
+	left: 1%;
+	width: 48.5%;
+	height: 74%;
+	font-size: 60px;
+}
+
+#TextDiv{
+	position: absolute;
+	left: 0;
+	top: 10%;
+	width: 100%;
+	color: black;
+}
+#Text{
+	position: relative;
+	width: 100%;
+	top: 100%;
+	left: 0%;
+	color: black;
+}

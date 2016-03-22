@@ -1,0 +1,126 @@
+#Comments{
+  position: fixed;
+  vertical-align: middle;
+  height: 387px;
+  width: 892px;
+  top: 129px;
+  text-align: center;
+  left: 16.6%;
+  background-color: white;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-top-style: hidden;
+
+
+  z-index: 62;
+}
+#Comments2{
+  position: fixed;
+  vertical-align: middle;
+  width: 65.3%;
+  height: 12%;
+  top: 78%;
+  text-align: center;
+  left: 16.6%;
+  background-color: #FFF;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  z-index: 62;
+}
+#CommentBanner{
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #005593;
+  top: -98.5%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  z-index: 64;
+}
+
+#CommentContainer{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 7%;
+}
+#Comment{
+  position: relative;
+  background-color: white;
+  height: 81px;
+  width: 100%;
+  border: 1px solid gray;
+  border-bottom-style: hidden;
+  top: -0%;
+  border-left-style: hidden;;
+  border-right-style:hidden;
+
+}
+#info{
+  position: relative;
+  width: 100%;
+  text-align: left
+}
+#commentName{
+  position: relative;
+  display: inline-block;
+  font-size: 130%;
+  text-align: left;
+  text-decoration: none;
+  color: #3F5296;
+}
+#commentName:hover{
+  text-decoration: underline;
+
+}
+#CommentNickname{
+  position: relative;
+  display: inline-block;
+  font-size: 130%;
+  text-align: left;
+  padding-left: 5px;
+  color: #8899A6;
+}
+#Words{
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+#CommentWords{
+  font-size: 148%;
+  word-wrap:break-word;
+}
+#writingSection{
+  position: fixed;
+  background-color: gray;
+  height: 40px;
+  left: 16.65%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 63;
+  width: 892px;
+  top: 516px;
+}
+#commentWriter{
+  position: relative;
+  top: 6%;
+  width: 96%;
+  height: 70%;
+  z-index: 63;
+  resize: none;
+  left: 1.5%;
+}
+#CommentExitButton{
+  position: relative;
+  top: -405px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  vertical-align: middle;;
+background-color : transparent;
+  border-style: hidden;
+  cursor: pointer;
+}
+#CommentExitButton:hover{
+   cursor: hand;
+}

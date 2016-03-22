@@ -1,0 +1,228 @@
+body{
+	background-color: #E9EAED;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+  padding: 0;
+}
+
+/*Notificaiton Boxes*/
+	#NotificationList /*equivalent of feed*/
+	{
+		position: absolute;
+		width: 100%;
+		color: white;
+		z-index: 1;
+	}
+	#Notes /*equivalent of updates*/
+	{
+		position: relative;
+		width: 42%;
+		height: 2000px;
+		margin: 0 auto;
+		border-radius: 15px;
+	}
+
+	#NotificationsContainer /*equivalent of FeedEvent*/
+	{
+		position: relative;
+		width: 100%;
+		height: 100;
+		border-right: solid 2px #e0dfe4;
+		border-left: solid 2px #e7e6ea;
+		background-color: white;
+		border-top-color: #D8D8D8;
+		border-top-style: none;
+		border-bottom: 1px solid #e0dfe4;
+	}
+	#NotificationBanner
+	{
+		position: relative;
+		background-color: white;
+		width: 100%;
+		top: 64px;
+		height: 60px;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+		border-right: solid 2px #e0dfe4;
+		border-left: solid 2px #e7e6ea;
+		border-bottom: 1px solid #e0dfe4;
+
+
+	}
+	#NotificationMessages/*equivalent of updateMessages*/
+	{
+		display: inline-block;
+		position: relative;
+		height: 4%;
+		top: 64px;
+		width: 100%;;
+	}
+	#NotificationFooter
+	{
+		position: relative;
+		background-color: white;
+		width: 100%;
+		height: 30px;
+		border-bottom-right-radius: 3px;
+		border-bottom-left-radius: 3px;
+		border-top-width: 0px;
+		border-right: solid 2px #e0dfe4;
+		border-left: solid 2px #e7e6ea;
+		border-bottom: solid 2px #e0dfe4;
+
+	}
+	#BannerText
+	{
+		position: relative;
+		font-size: 185%;
+		height: 100%;
+		left: 15px;
+		margin: auto auto;
+		width: 100%;
+		display: inline-block;
+		text-align: middle;
+		color: black;
+	}
+	#nameLink
+	{
+		display: inline-block;
+		text-align: center;
+		text-decoration:none;
+		position: relative;
+		color: #009688;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+	#nameLink:hover
+	{
+		display: inline-block;
+		text-align: center;
+		text-decoration:underline;
+		position: relative;
+		color: #009688;
+		font-weight: bold;
+		padding-top: 10px;
+	}
+
+	#userNickName{
+		position: relative;
+		display: inline-block;
+		color: #8899A6;
+		font-size: 9pt;
+		padding-bottom: 10px;
+	}
+
+	#noteType
+	{
+		position: relative;
+		display: block;
+		text-align: center;
+		color: black;
+		z-index: 2;
+		left: 2px;
+	}
+	#requestNoteType{
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		color: black;
+		padding-bottom: 0;
+		z-index: 2;
+		left: 2px;
+	}
+	#eventName
+	{
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		padding-top: 5px;
+		color: black;
+		z-index: 2;
+	}
+
+
+/**/
+
+/*Requests Specific stuff*/
+#RequestsContainer
+{
+	position: relative;
+		width: 100%;
+		height: 150%;
+		border-right: solid 2px #e0dfe4;
+		border-left: solid 2px #e7e6ea;
+		background-color: white;
+		border-top-color: #D8D8D8;
+		border-top-style: none;
+		padding-bottom: 40px;
+		border-top: 1px solid #e0dfe4;
+
+}
+#RequestNameLink{
+		position: relative;
+		display: block;
+		width: 100%;
+		text-align: center;
+		text-decoration:none;
+		color: #009688;
+		font-weight: bold;
+		padding-top: 10px;
+}
+#RequestNameLink:hover{
+	text-decoration: underline;
+	color: #009688;
+}
+#acceptButton
+{
+	position: relative;
+	top: 10px;
+	right: 10px;
+	width: 70px;
+	height: 27px;
+	border-radius: 3px;
+	background-color: #009688;
+	color: white;
+	border: 1px solid #32936F;
+	font-weight: bold;
+}
+#declineButton
+{
+	position: relative;
+	top: 10px;
+	left: 12px;
+	width: 70px;
+	height: 27px;
+	border-radius: 3px;
+	background-color: #F4F4F4;
+	color: #494949;
+	border: 1px solid #C4C4C4;
+	font-weight: bold;
+
+}
+#acceptButton:hover{
+		cursor: pointer; cursor: hand;
+}
+#declineButton:hover{
+		cursor: pointer; cursor: hand;
+
+}
+#MoreNotificationsButton
+{
+		position: relative;
+		top: 0%;
+		text-decoration: none;
+		border-width: 0px;
+		color: #6D84B4;
+		background-color: white;
+}
+#MoreNotificationsButton:hover{
+
+		position: relative;
+		top: 0%;
+		text-decoration: underline;
+		border-width: 0px;
+		color: #6D84B4;
+		background-color: white;
+
+}

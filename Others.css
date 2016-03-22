@@ -1,0 +1,25 @@
+.dim {
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    background-color:black;
+    filter: alpha(opacity=75); /* internet explorer */
+    -khtml-opacity: 0.75;      /* khtml, old safari */
+      -moz-opacity: 0.75;      /* mozilla, netscape */
+           opacity: 0.75;      /* fx, safari, opera */
+           z-index: 61;
+}
+#logoutText{
+  position: absolute;
+  color: black;  
+  top: 99%;
+  left: 160%;
+}
+#recognitionText
+{
+  position: absolute;
+  top: 99%;
+  right: 152%;
+}

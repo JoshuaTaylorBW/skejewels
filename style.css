@@ -1,0 +1,22 @@
+body{
+	background-color: #3688BA;
+}
+#EventName{
+	text-align: center;
+}
+#EndingTimes{
+	padding-left: 304px;
+}
+#EndingDates{
+	padding-left: 308px;
+}
+#Names{
+	position: relative;
+	left: 0%;
+	 padding-bottom: 0px;
+
+}
+#jewel{
+	position: relative;
+	left: 46%;
+}
